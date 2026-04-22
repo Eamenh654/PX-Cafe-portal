@@ -1,0 +1,9 @@
+{
+  "name": "px-cafe-portal",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
