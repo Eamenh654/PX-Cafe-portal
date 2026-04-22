@@ -276,7 +276,7 @@ const EmployeePortal = ({ user }) => {
       <div className="emp-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
           <div className="brand">
-            <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 36 }} />
+            <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 70 }} />
           </div>
           <div className={`conn-badge ${isConnected ? 'live' : ''}`}>
             {isConnected ? 'On' : 'Off'}

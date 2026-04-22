@@ -318,7 +318,7 @@ const AdminPortal = ({ user }) => {
       <div className="noise"></div>
       <div className="admin-header">
         <div className="brand">
-          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: '36px' }} />
+          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: '70px' }} />
           <h1 className="brand-name">Admin <em>Center</em></h1>
         </div>
         <button className="btn-secondary" onClick={handleLogout}>Logout</button>

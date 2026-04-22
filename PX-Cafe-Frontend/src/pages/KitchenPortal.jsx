@@ -140,7 +140,7 @@ const KitchenPortal = ({ user }) => {
       
       {!sessionStarted && (
         <div className="session-overlay">
-          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 80, marginBottom: 40 }} />
+          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 70, marginBottom: 40 }} />
           <h2>Kitchen <em>Station</em></h2>
           <p>Ready to start preparing refreshments? Enable notifications and audio alerts.</p>
           <button className="btn-primary" onClick={startSession} style={{ background: 'var(--cream)', color: 'var(--ink)', border: 'none' }}>Start Kitchen Session</button>
@@ -159,7 +159,7 @@ const KitchenPortal = ({ user }) => {
       {/* Header */}
       <div className="kitchen-header">
         <div className="kitchen-brand brand">
-          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 40 }} />
+          <img src="/logo.png" alt="PX Cafe Logo" style={{ height: 70 }} />
           <div style={{ marginLeft: 12 }}>
             <div className="brand-sub">Kitchen Station · {user.location || 'Floor 2'}</div>
           </div>
